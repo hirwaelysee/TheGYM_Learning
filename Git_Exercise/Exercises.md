@@ -23,3 +23,30 @@
 16. git checkout dev # switches back to dev branch
 17. git branch -d test # deletes the test branch
 ```
+### Exercise 2
+```bash
+1. touch home.html
+2. git add home.html
+3. git stash
+
+4. touch about.html
+5. git add about.html
+6. git stash
+
+7. touch team.html
+8. git add team.html
+9. git stash 
+
+10. git stash list
+11. git stash pop stash@{1}
+
+12. git stash pop stash@{1}
+
+13. git commit -m "Added about and home page"
+14. git stash pop
+15. git reset --hard
+```
+## Bundle 2
+```
+
+```
