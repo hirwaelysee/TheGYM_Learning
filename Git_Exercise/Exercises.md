@@ -25,26 +25,26 @@
 ```
 ### Exercise 2
 ```bash
-1. touch home.html
-2. git add home.html
-3. git stash
+1. touch home.html # created a new file
+2. git add home.html # added the home.html
+3. git stash #stashed the home.html after adding it.
 
-4. touch about.html
-5. git add about.html
-6. git stash
+4. touch about.html # created a new file
+5. git add about.html # added the about.html
+6. git stash #stashed the about.html after adding it.
 
-7. touch team.html
-8. git add team.html
-9. git stash 
+7. touch team.html # created a new file
+8. git add team.html # added the team.html
+9. git stash #stashed the team.html after adding it.
 
-10. git stash list
-11. git stash pop stash@{1}
+10. git stash list #show the list of stashed changes
+11. git stash pop stash@{1} #recovered the stash 1 because it containes about.html
 
-12. git stash pop stash@{1}
+12. git stash pop stash@{1} #recovered the stash 1 because it containes home.html
 
 13. git commit -m "Added about and home page"
-14. git stash pop
-15. git reset --hard
+14. git stash pop #recovered the team.html
+15. git reset --hard #removes the staged files. 
 ```
 ## Bundle 2
 ```
