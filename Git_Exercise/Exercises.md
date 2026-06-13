@@ -47,6 +47,41 @@
 15. git reset --hard #removes the staged files. 
 ```
 ## Bundle 2
+
+## Exercise 1
+
+```
+1. git checkout -b ft/bundle-2 
+2. touch service.html #created service and added some content
+3. git add service.html
+4. git commit -m "Added service html page"
+5. git push origin ft/bundle-2
+6. then click on the link that will lead u to do a pull.
+7. Do a pull request then add a reviewer
+8. Wait for the response of the reviewer then merge the changes to the main.
 ```
 
+## Exercise 2
+```
+1. git checkout main #switch to the main branch
+2. git pull #Commit a pull in order for ur remote and local repository to be at the same page.
+3. git checkout -b ft/service-redesign
+4. Edit the service.html page.
+5. git add service.html
+6. git commit -m "Added some changes to the service.html"
+7. git push origin ft/service-redesign
+8. Go on github then click on the pull request part and click the pull request button and add a reviewer
+9.git switch main
+10. Edit the service.html
+11. git add service.html
+12. git commit -m "Added list of our services."
+13. git push origin main
+14. go back to the pr you will notice a merge conflict 
+15. Then merge both of them 
+16. git checkout ft/service-redesign 
+17. git merge main
+18. git diff
+19. git add service.html
+20. git commit
+21. git push origin main
 ```
