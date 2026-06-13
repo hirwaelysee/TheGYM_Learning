@@ -85,3 +85,36 @@
 20. git commit
 21. git push origin main
 ```
+# Bundle3 
+
+## Exercise 1
+```
+1. git checkout -b ft/team-page
+2. touch team.html
+3. git commit -m "Added content to the team page"
+4. git push origin ft/team-page
+5. Create the PR for the changes
+6. git checkout main
+7. git checkout -b ft/contact-page
+8. git checkout ft/team-page
+9. git log 
+10. Check the the last commit and copy it
+11. git checkout ft/contact-page
+12. git cherry-pick (latest_commit)
+13. touch contact.html
+14. git add contact.html
+15. git commit -m "Added a contact page"
+16. git push origin ft/contact-page
+17. Create a new PR for the contact page
+18. git checkout -b ft/faq-page
+19. touch faq.html # add some changes there
+20. git add faq.html
+21. git commit -m "Added faq page"
+22. git push origin ft/faq-page
+23. git revert (the commit id of team.html you copied before)
+24. git push origin ft/faq-page
+```
+## Exercise 2
+```
+
+```
