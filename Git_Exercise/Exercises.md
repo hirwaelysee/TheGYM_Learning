@@ -130,3 +130,32 @@
 12. Create a PR
 ```
 # Bundle4
+
+## Exercise 1
+```
+1. git checkout main
+2. git remote add git-copy https://github.com/hirwaelysee/Git-git-copy.git #having 2 remote repository
+3. Make some changes to the home page
+4. git add home.html
+5. git commit -m "Added an emoji to the home page"
+6. git push origin
+7. git push git-copy
+
+```
+## Exercise 2
+```
+1. git checkout ft/footer
+2. add some changes to the branch 
+3. git add (file)
+4. git commit -m "Added some changes"
+5. add some changes to the branch 
+6. git add (file)
+7. git commit -m "Added some new changes" 
+8. git push origin ft/footer
+9. git checkout main
+10. git checkout -b ft/squashing
+11. git merge --squash ft/footer # this command is used imagine that you created many commits on a branch and merge them to another branch all those commits will come but with this command you get all the changes and get to commit them in a single line of commit.
+12. git commit -m "footer changes squashing"
+13. git push origin ft/squashing
+14. then create a PR.
+```
