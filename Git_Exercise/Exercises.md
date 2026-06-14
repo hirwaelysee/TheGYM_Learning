@@ -116,5 +116,17 @@
 ```
 ## Exercise 2
 ```
-
+1. git checkout -b ft/home-page-redesign
+2. git checkout main 
+3. make some changes in one the files on main
+4. git commit -m "Added some changes in the home page"
+5. git push origin main
+6. git switch ft/home-page-redesign
+7. git rebase main # moves the commit and changes of the main branch on top of the commits of the ft/home-page-redesign
+8. add some changes to the home.html
+9. git add home.html
+10. git commit -m "Added some changes on the home page"
+11. git push origin ft/home-page-redesign
+12. Create a PR
 ```
+# Bundle4
